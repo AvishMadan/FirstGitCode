@@ -74,16 +74,4 @@ public class CreateNewButtonTC extends Base {
 		
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
