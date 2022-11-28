@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-28T14:01:40 IST" name="Default suite" finished-at="2022-11-28T14:02:08 IST" duration-ms="27497">
+    <groups>
+    </groups>
+    <test started-at="2022-11-28T14:01:40 IST" name="Default test" finished-at="2022-11-28T14:02:08 IST" duration-ms="27497">
+      <class name="Testcases.CreateNewButtonTC">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:41 IST" name="setup" finished-at="2022-11-28T14:01:48 IST" duration-ms="7078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String)[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:48 IST" name="loginCheck" data-provider="data" finished-at="2022-11-28T14:01:48 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikhil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:48 IST" name="tearDown" finished-at="2022-11-28T14:01:48 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:48 IST" name="setup" finished-at="2022-11-28T14:01:54 IST" duration-ms="5835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String)[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:54 IST" name="loginCheck" data-provider="data" finished-at="2022-11-28T14:01:55 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:55 IST" name="tearDown" finished-at="2022-11-28T14:01:55 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:01:55 IST" name="setup" finished-at="2022-11-28T14:02:01 IST" duration-ms="5823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String)[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:02:01 IST" name="loginCheck" data-provider="data" finished-at="2022-11-28T14:02:01 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Afsha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:02:01 IST" name="tearDown" finished-at="2022-11-28T14:02:01 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:02:01 IST" name="setup" finished-at="2022-11-28T14:02:07 IST" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String)[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:02:07 IST" name="loginCheck" data-provider="data" finished-at="2022-11-28T14:02:07 IST" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Isha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.CreateNewButtonTC@50eac852]" started-at="2022-11-28T14:02:07 IST" name="tearDown" finished-at="2022-11-28T14:02:08 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.CreateNewButtonTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
