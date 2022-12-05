@@ -29,6 +29,9 @@ public class CreateNewAccount extends BaseTest {
 		driver=setUpBrowser();
 	lp = new LoginPage(driver);
 	
+	
+	
+	
 	}
 
 
