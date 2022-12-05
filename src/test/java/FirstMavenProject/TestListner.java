@@ -48,14 +48,5 @@ public class TestListner implements ITestListener {
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
 		reports.flush();
-	}
-
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }

@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utility.Coomonfunction;
+
 public class LoginPage {
 @FindBy(xpath = "//input[@id='email']")  //webelenemt ele=driver.findelemnt by xpath
 WebElement email;
@@ -16,11 +18,26 @@ WebElement LogIn;
 WebElement forgotPasswords;
 @FindBy(xpath = "//a[text()='Create New Account']")
 WebElement CreateNewAccount;
-WebDriver driver;
+@FindBy(xpath = "//select[@id='day']")
+WebElement day;
+@FindBy(xpath = "//select[@id='month']")
+WebElement month;
+@FindBy(xpath = "//select[@id='year']")
+WebElement year;
 
+
+
+
+
+
+
+
+WebDriver driver;
+public Coomonfunction utobj;
 public LoginPage(WebDriver driver) {
 	this.driver = driver;
 	PageFactory.initElements(driver,this);
+	utobj=new Coomonfunction();
 }
 public void setUserName(String username) 
 {
@@ -51,7 +68,15 @@ public void clickCreateNewAccount()
 {
 	CreateNewAccount.click();
 }
+public void selectDob() 
+{
+	utobj.drpdown(day, "24");
+	utobj.drpdown(month, "Nov");
+	utobj.drpdown(year, "2019");
 
+
+
+}
 
 
 
