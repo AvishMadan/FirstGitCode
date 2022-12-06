@@ -9,7 +9,6 @@ public class Comments {
 		System.out.println("Comment validate for fb");
 		System.out.println("Comment validate for Insta");
 		
-		System.out.println("Comment validate for whatsapp");
 		
 		
 		
